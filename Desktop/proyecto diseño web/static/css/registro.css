@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  [class*="col-"]{
+    float: left;
+    padding:1%;
+  }
+/* Fondo de la Pagina (textura) */
+body{
+    background: url(../imajenes/light_alu.png);
+    width: 100%;
+}
+
+.fuente{
+    color: white;
+    font-family: 'Aharoni';
+}
+.jj{
+    margin: 0 auto;
+    width: 60%;
+    height: 600px;
+    border: 1px solid black;
+    
+}
